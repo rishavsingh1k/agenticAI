@@ -3,7 +3,6 @@ from graph import build_graph
 # build app
 app = build_graph()
 
-# ask function
 def ask(question, thread_id="1"):
     state = {
         "question": question,

@@ -1,9 +1,10 @@
-from datetime import datetime
 from groq import Groq
 import os
+from dotenv import load_dotenv
 
-import os
-api_key = os.getenv("GROQ_API_KEY")
+load_dotenv()
+
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 
 def memory_node(state):

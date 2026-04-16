@@ -1,0 +1,10 @@
+langchain
+langchain-core
+langchain-community
+langgraph
+groq
+python-dotenv
+pydantic
+tqdm
+faiss-cpu
+sentence-transformers
